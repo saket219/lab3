@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="NumberTricks.css">
+</head>
+    <body class="light-theme">
+    <body> 
+    <h2>NumberTricks</h2>
+
+    <img src="NumberTrickPic.jpg"></id> 
+
+    <h3>Date</h3>
+
+    <p id="demo"></p>
+     
+   <h5>HTML Image</h5>
+   <h1>
+    Saket Esarapu 
+   </h1>
+
+             
+    <script>
+                      
+        var num = prompt("Choose any number and add 9 to it", " ");//prompt method displays dialogue box to take input .
+        if(num!=null)
+        
+            {
+
+        var n=parseInt(num);
+        var n1=(n+9)
+        document.write('<h1> <i><center>Choose any number and add 9 to it<i> <br><span id = "result"></span>'+n1+' </center></h1>');
+            alert(n1);
+
+        var n2=(n1*2)
+        document.write('<h1> <i><center>Multiply this number by 2<i> <br><span id = "result"></span>'+n2+' </center></h1>');
+            alert(n2);
+
+        var n3=(n2-4)    
+        document.write('<h1> <i><center>Subtract 4<i> <br><span id = "result"></span>'+n3+' </center></h1>');
+            alert(n3);
+
+        var n4=(n3/2)
+        document.write('<h1> <i><center>Divide the remainder by 2<i> <br><span id = "result"></span>'+n4+' </center></h1>');
+            alert(n4);
+
+       var n5=(n4-n) 
+       document.write('<h1> <i><center>Subtract the number you first picked<i> <br><span id = "result"></span>'+n5+' </center></h1>');//to display the result on output screen
+            alert(n5);
+                    
+            }
+                       
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d;
+        
+    </script>
+<footer>
+        <p1>
+            FOOTER
+        </p1>
+</footer>
+
+<script src="NumberTricks.js"></script>
+<noscript>You need to enable JavaScript to view the full site.</noscript>
+
+</body>
+</html>
