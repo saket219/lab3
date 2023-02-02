@@ -2,28 +2,28 @@
 
 body {
    
-    background-color: lightblue;
+    background-color: grey;
     color: var(--fontColor);
     font-family: helvetica;
-    color: blue;
+    color: black;
   }
   h2 {
     text-align: center;
     background-color: darkgoldenrod;
-    color: brown;
+    color: red;
     border: 2px solid navy;
     border-inline-end-width: medium;
     padding: 30px;
     justify-content: center;
   }
   h3{
-    color:blueviolet
+    color:black
   }
   h4{
-    color:blueviolet
+    color:blue
   }
   h5{
-    color:blueviolet
+    color:green
   }
 
   li {
